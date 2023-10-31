@@ -1,11 +1,11 @@
 const myNums = [1, 2, 3]
 
-// const myTotal = myNums.reduce(function (acc, currval) {
+// const myTotal = myNums.reduce(function (acc, currval) {                 //* reduce function is used withh accumalator and current value learn its syntax*
 //     console.log(`acc: ${acc} and currval: ${currval}`);
 //     return acc + currval
-// }, 0)
+// }, 0)                                                                  //* 0 is used as the initial value for the accumulator* 
 
-const myTotal = myNums.reduce( (acc, curr) => acc+curr, 0)
+const myTotal = myNums.reduce( (acc, curr) => acc+curr, 0)                //* reduce is used with arrow function*
 
 console.log(myTotal);
 
